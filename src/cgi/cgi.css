@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    transition: linear all .3s;
+    
+}
+body{
+    background-image: radial-gradient(circle at 4.55% 104.17%, #ff3dd8 0, #ff35e9 10%, #ff33f5 20%, #ff36fb 30%, #ff3afa 40%, #f23cf2 50%, #c03de6 60%, #903edb 70%, #603ed0 80%, #1a3fc7 90%, #003fbf 100%);
+    width: 100vw;
+    height: 100vh;
+}
+.cont-geral{
+   
+}
+/*cabeça do site*/
+.cont-header{
+    width: 100%;
+    margin-bottom: 10rem;
+    
+    
+}
+.cont-nav {
+    padding: 10px;
+}
+.cont-nav ul{
+    display: flex;
+    float: right;
+    align-items: center;
+}
+.cont-nav ul li{
+    padding: 1.5rem;
+}
+.cont-nav ul li a{
+    color: #fff;
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    position: relative;
+    transition: 0.5s;
+    
+}
+
+.cont-nav ul li a::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    height: 2.5px;
+    width: 0;
+    border-radius: 50px;
+    background: #f23cf2;
+    transition: 0.3s;
+}
+.cont-nav ul li a:hover::before{
+    width: 100%;
+}
+/* fim da navegação do site*/
+.container_section_recebi{
+    width: 90%;
+    margin: 0 auto;
+    background-color: #f0fff006;
+    box-shadow: 0 0 5px #b9f29d,
+    0 0 10px #b9f29d,
+    0 0 15px #b9f29d,
+    0 0 20px #b9f29d;
+}
+.conteudo_section_recebi{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.5rem;
+    
+}
+.conteudo_section_recebi h1{
+    padding: 2rem;
+
+
+}
+.tabela_recebi{
+    width: 80%;
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+.tabela_recebi td,th{
+    border: 1px solid #000;
+    border-collapse: collapse;
+    text-align: center;
+}
+.tabela_recebi th{
+    background: rgba(126, 252, 0, 0.564);
+}
