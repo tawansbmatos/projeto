@@ -29,6 +29,7 @@ body{
     width: 100%;
     
 }
+
 .cont-nav {
     padding: 5px;
 }
@@ -48,6 +49,18 @@ body{
     position: relative;
     transition: 0.5s;
     
+}
+#exit{
+    color: #000;
+    position: fixed;
+    background-color: #fff;
+    padding: 5px 20px;
+    border-radius: 10px;
+    margin: 1rem;
+}
+#exit:hover{
+    background-color: #0000003e;
+    color: #fff;
 }
 
 .cont-nav ul li a::before{

@@ -7,27 +7,42 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;600&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="/src/telalogin/login.css">
+    <link rel="stylesheet" href="/login.css">
     <title>login</title>
 </head>
 <body>
-    <a href="/src/home/home.html">home</a>
 
     <div class="container_form">
         <div class="container_formulario">
-            <form class="form" action="#">
+            <form class="form" >
+
                 <label for="name" class="name_label">usuário</label>
-                <input type="email" class="input_email" placeholder="nome@gmail.com">
+                <input id="login" type="text" class="input_email" placeholder="digite seu nome...">
 
                 <label for="name" class="name_label">senha</label>
-                <input type="password" class="input_password" placeholder="ex:11252">
+                <input id="senha" type="password" class="input_password" placeholder="ex:11252">
 
-                <input class="btn_form" type="button" value="entrar" type="submit">
+                <input class="btn_form" type="submit" value="entrar" onclick="logar(); return false">
 
             </form>
         </div>
     </div>
-    
+
+    <script>
+
+function logar (){
+    var login = document.getElementById('login').value;
+    var senha = document.getElementById('senha').value;
+
+    if(login == "123" && senha == "123"){
+        
+        location.href = "/src/home/home.html";
+    }else{
+        alert('usuário ou senha incorretos')
+    }
+
+}
+    </script>
 </body>
-<script src="/src/scripts/index.js"></script>
+
 </html>
