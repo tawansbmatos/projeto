@@ -14,7 +14,7 @@ body{
 .conteudo-zero {
     text-align: center;
     width: 100%;
-   margin-bottom: 1rem;
+    margin-bottom: .5rem;
   
 
 }
@@ -34,7 +34,7 @@ body{
     justify-content: center;
     align-items: center;
     position: fixed;
-   left: 36%;
+    left: 36%;
     
 
 }
@@ -203,3 +203,37 @@ body{
     margin-top: 0;
     color: #000;
 }
+
+@media only screen and (max-width: 767px ) {
+    /* Estilos para tablets en modo horizontal y dispositivos más grandes */
+
+    .cont-header{
+        width: 100vw;
+        display: flex;
+       
+    }
+    .cont-nav{
+        margin-top: 30px;
+        margin-bottom: -80px;
+    }
+    
+    #pesquisar{
+       display: none;
+        width: 15rem;
+        
+    }
+    .btn_serach{
+        display: none;
+        
+       
+    }
+    
+
+
+
+    .conteudo-zero h1{
+        font-size: 1.5rem;
+        
+    }
+
+  }
