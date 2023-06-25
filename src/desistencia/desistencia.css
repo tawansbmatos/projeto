@@ -85,3 +85,24 @@ border-radius: 10px;
     color: #000;
 
 }
+/*imagem do gráfico de desistência de compras*/
+.cont-trocas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img_section_desistencia{
+    width: 980px;
+    height: 500px;
+  
+}
+.img_section_desistencia img{
+    width: 100%;
+    height: 80%;
+    border-radius: 10px;
+}
+.img_section_desistencia h2{
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+}

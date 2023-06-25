@@ -1,23 +1,37 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="src/home/home.css">
+    <script src="https://kit.fontawesome.com/217e9bae7a.js" crossorigin="anonymous"></script>
     <title>home</title>
 </head>
+
 <body>
     <div class="cont-geral">
         <header class="cont-header">
-            <li><a id="exit" href="/login.html">sair</a></li>
+            
+            
+                <li><a title="exit" id="exit" href="/login.html"><i class="fa-solid fa-right-from-bracket"></i></a></li>
+            
             <nav class="cont-nav">
+                
                 <ul>
-                    
-                    <li><a href="home.html">início</a></li>
+                    <div class="serach_container">
+                        <input type="text" name="pesquisar" id="pesquisar" placeholder="pesquisar...">
+                        <button class="btn_serach" id="btn-search" type="submit"><i
+                                class="fa-solid fa-magnifying-glass"></i></button>
+                    </div>
+
+                    <li><a href="/home.html">início</a></li>
                     <li><a href="#">relatório</a></li>
                     <li><a href="#">anomalias</a></li>
                     <li><a href="#">gráficos</a></li>
@@ -25,78 +39,79 @@
             </nav>
         </header>
         <section class="conteudo-zero">
-            <h1>relatório semanal  da loja</h1>
+            <h1>relatório semanal da loja</h1>
         </section>
         <section class="cont-section-one">
             <div class="conteudo-section-one">
-                    <div class="card-section-one">
-                        <span class="material-symbols-outlined">
-                            receipt_long
-                        </span>
-                        <h3>trocas</h3><br>
-                       
-                        <a href="/src/trocas/trocas.html">entrar</a>
-                    </div>
+                <div class="card-section-one">
+                    <span class="material-symbols-outlined">
+                        receipt_long
+                    </span>
+                    <h3>trocas</h3><br>
+
+                    <a href="/src/trocas/trocas.html">entrar</a>
+                </div>
                 <div class="card-section-one">
                     <span class="material-symbols-outlined">
                         shopping_cart
-                        </span>
+                    </span>
                     <h3>desistência de compras</h3><br>
-                    
-                    <a href="/src/desistencia/desistencia.html">entrar</a>             
+
+                    <a href="/src/desistencia/desistencia.html">entrar</a>
                 </div>
                 <div class="card-section-one">
                     <span class="material-symbols-outlined">
                         local_shipping
-                        </span>
+                    </span>
                     <h3>recebimento</h3><br>
-                    
-                    <a href="/src/recebimentos/recebimento.html">entrar</a>             
+
+                    <a href="/src/recebimentos/recebimento.html">entrar</a>
                 </div>
                 <div class="card-section-one">
                     <span class="material-symbols-outlined">
                         tv_options_edit_channels
-                        </span>
+                    </span>
                     <h3>PVPS</h3><br>
-                
-                    <a href="/src/pvps/pvps.html">entrar</a>             
+
+                    <a href="/src/pvps/pvps.html">entrar</a>
                 </div>
                 <div class="card-section-one">
                     <span class="material-symbols-outlined">
                         screen_search_desktop
-                        </span>
+                    </span>
                     <h3>O2O</h3><br>
-                    <a href="/src/o2o/o2o.html">entrar</a>            
+                    <a href="/src/o2o/o2o.html">entrar</a>
                 </div>
                 <div class="card-section-one">
                     <span class="material-symbols-outlined">
                         settings_phone
-                        </span>
+                    </span>
                     <h3>chamados</h3><br>
-                    
-                    <a href="/src/chamados/chamados.html">entrar</a>                 
+
+                    <a href="/src/chamados/chamados.html">entrar</a>
                 </div>
                 <div class="card-section-one">
                     <span class="material-symbols-outlined">
                         order_approve
-                        </span>
+                    </span>
                     <h3>CGI</h3><br>
-                    
-                    <a href="/src/cgi/cgi.html">entrar</a>               
+
+                    <a href="/src/cgi/cgi.html">entrar</a>
                 </div>
                 <div class="card-section-one">
                     <span class="material-symbols-outlined">
                         verified
-                        </span>
+                    </span>
                     <h3>ações preventivas</h3><br>
-                    
-                    <a href="/src/acoes/acoes.html">entrar</a>              
+
+                    <a href="/src/acoes/acoes.html">entrar</a>
                 </div>
             </div>
 
         </section>
 
 
-    </div>    
+    </div>
 </body>
+
 </html>

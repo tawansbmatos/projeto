@@ -29,9 +29,55 @@ body{
     width: 100%;
     
 }
+.serach_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+   left: 36%;
+    
+
+}
+#pesquisar{
+    padding: 5px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    width: 20rem;
+    
+}
+.btn_serach{
+    margin: 10px;
+    background: transparent;
+    border-radius: 51%;
+    border: none;
+    display: felx; 
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    
+   
+}
+.btn_serach:hover{
+   background: #fff;
+}
+
+.fa-solid {
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+  
+}
+.fa-solid:hover{
+    color: #0C7075;
+}
+
+
+
 
 .cont-nav {
     padding: 5px;
+    
 }
 .cont-nav ul{
     display: flex;
@@ -50,12 +96,10 @@ body{
     transition: 0.5s;
     
 }
-#exit{
-    color: #000;
+#exit i{
+    color: #fff;
     position: fixed;
-    background-color: #fff;
-    padding: 5px 20px;
-    border-radius: 10px;
+    
     margin: 1rem;
 }
 #exit:hover{

@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/src/favicon/icom.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;600&display=swap"
@@ -17,10 +18,10 @@
             <form class="form" >
 
                 <label for="name" class="name_label">usuário</label>
-                <input id="login" type="text" class="input_email" placeholder="digite seu nome...">
+                <input id="login" type="text" class="input_email" placeholder="digite seu nome" required>
 
                 <label for="name" class="name_label">senha</label>
-                <input id="senha" type="password" class="input_password" placeholder="ex:11252">
+                <input id="senha" type="password" class="input_password" placeholder="digite sua senha" required>
 
                 <input class="btn_form" type="submit" value="entrar" onclick="logar(); return false">
 
